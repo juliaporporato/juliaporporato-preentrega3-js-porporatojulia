@@ -1,0 +1,9 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.menu, .cart-item {
+    margin: 10px 0;
+}
+.menu button, .cart-item button {
+    margin-left: 10px;
+}
