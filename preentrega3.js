@@ -7,10 +7,10 @@ class Menu {
 }
 
 const menus = [
-    new Menu(1, 'Menú Vegetariano', 10),
-    new Menu(2, 'Menú de Pollo', 12),
-    new Menu(3, 'Menú de Pescado', 15),
-    new Menu(4, 'Menú de Carne', 18)
+    new Menu(1, 'Menú Vegetariano', 2500),
+    new Menu(2, 'Menú de Pollo', 2800),
+    new Menu(3, 'Menú de Pescado', 3100),
+    new Menu(4, 'Menú de Carne', 3500)
 ];
 
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
